@@ -10,7 +10,8 @@ class Home extends Controller
         if (!$session->get('user_id')) {
             return redirect()->to('/login');
         }
-        // If logged in, show home view
-        return view('dashboard/index');
+        // Pass username to view
+        $data['username'] = $session->get('username');
+        return view('dashboard/index', $data);
     }
 }
