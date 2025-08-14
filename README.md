@@ -1,4 +1,4 @@
-# Ci-4-Auth-Example
+# Ci-4-LOGIN-Example
 A CodeIgniter 4 app starter project with login and register.
 Run 'composer create-project codeigniter4/appstarter project-root' in your www folder
 changing project-root to you apps name. Use my UserModel.php, Routes.php, Views and Controllers in my files.
